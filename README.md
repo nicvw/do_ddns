@@ -19,10 +19,10 @@ Usage
 -----
 The script requires three inputs, the domain being managed by Digital Ocean, the name of the record you with to create/update and your API access token available [here](https://cloud.digitalocean.com/settings/applications)
 
-`python3 do_dns.py <domain> <record> <api-token>`
+`python3 do_dyndns.py <domain> <record> <api-token>`
 
 Example
 -------
 Should I wish to create/update the record for test.example.com
 
-`python3 do_dns.py example.com test apitoken123qwe`
+`python3 do_dyndns.py example.com test apitoken123qwe`
