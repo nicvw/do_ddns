@@ -11,6 +11,10 @@ It is also written for Python 3 only, because it is 2017 for goodness' sake.  Fo
  - requests
  - ipify
 
+Run this command to install them:
+
+`pip3 install requests ipify`
+
 Usage
 -----
 The script requires three inputs, the domain being managed by Digital Ocean, the name of the record you with to create/update and your API access token available [here](https://cloud.digitalocean.com/settings/applications)
