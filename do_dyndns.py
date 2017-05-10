@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """."""
 from argparse import ArgumentParser
-from json.decoder import JSONDecodeError
 import logging
 
 from ipify import get_ip
@@ -24,7 +23,7 @@ def _get_ids(domain, name, auth):
     try:
         result = get(DOMAIN_API_PATH.format(domain), headers=auth)
         result = result.json()
-    except JSONDecodeError:
+    except ValueError:
         logging.error('unexpected response from %s', result.content)
         exit(1)
     logging.debug('domain records: %s', [x for x in result['domain_records'] if x['name'] == name])
