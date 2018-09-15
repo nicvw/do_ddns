@@ -3,7 +3,7 @@ Digital Ocean DynDNS Script
 
 Description
 -----------
-Dynamically update an 'A' or 'AAAA' record on a domain managed by Digital Ocean using their v2 API.  There are more complete packages and scripts out there for interacting with the Digital Ocean API, indeed there are other Digital Ocean dynamic DNS scripts too.  So why did I write my own, perhaps so I could reinvent a slightly less-round wheel?
+Update an 'A' or 'AAAA' record with your external IP address on a domain managed by Digital Ocean using their v2 API.  There are more complete packages and scripts out there for interacting with the Digital Ocean API, indeed there are other Digital Ocean dynamic DNS scripts too.  So why did I write my own, perhaps so I could reinvent a slightly less-round wheel?
 
 Requirements
 ------------
